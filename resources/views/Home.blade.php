@@ -1,3 +1,6 @@
 <x-layout>
-<h1>Home page lage ni Prieto ni</h1>
+    <x-slot:heading>
+        Home Page
+    </x-slot:heading>
+<h1>Welcome to my Home Page!</h1>
 </x-layout>
