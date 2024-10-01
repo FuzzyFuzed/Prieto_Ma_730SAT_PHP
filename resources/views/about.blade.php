@@ -1,3 +1,6 @@
 <x-layout>
-<h1>About page lage ni Prieto ni</h1>
+<x-slot:heading>
+        About Page
+    </x-slot:heading>
+<h1>Welcome to my About page!</h1>
 </x-layout>
