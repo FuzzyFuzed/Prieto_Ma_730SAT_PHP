@@ -5,7 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Witcher 3: Prieto's edition</title>
+
+
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-eMN2lL4anV/1KN6sL4GqZx1N1lDf6pMd8HcY1RY1xPQH+H9wP1GzB6ouJdYdRfB" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/js/bootstrap.min.js"></script>
 </head>
 
 <body class="min-h-full bg-gray-100"> <!-- Background for the full body -->

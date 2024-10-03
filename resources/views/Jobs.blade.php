@@ -13,5 +13,10 @@
                 <p class="text-gray-700">Pays {{ $job['salary'] }} per year.</p>
             </a>
         @endforeach
+
+            <div>
+                {{ $jobs->links() }}
+            </div>
+
     </div>
 </x-layout>
