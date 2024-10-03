@@ -4,25 +4,27 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 
-
-
 Route::get('/', function () {
-
     return view('Home');
 });
-Route::get('/jobs', function ()  {
+
+Route::get('/jobs', function () {
+        $jobs = Job::with('employer')->get();
+
     return view('Jobs', [
-        'jobs' => Job::all()
+        'jobs' => $jobs
     ]);
 });
 
 Route::get('/jobs/{id}', function ($id) {
-    $jobs =
+
+    $job = Job::find($id);
 
 
-   $job = Job::find($id);
+    if (! $job) {
+        abort(404);
+    }
 
-    dd($job);
 
     return view('job', ['job' => $job]);
 });
